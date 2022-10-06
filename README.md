@@ -13,14 +13,15 @@ This is one of the two sample projects provided by [Beam AI](https://www.beamhea
 ## Setup & Run (in less than 15 minutes)
 
 1. Clone this repository and open it up in Xcode.
-2. Update the beamID on line 53 of ViewController.swift. You will need a beamID to be able to use the Beam AI SDK. You can sign up to get your beamID [dashboard.beamhealth.ai](https://dashboard.beamhealth.ai/).
+2. Add the [Beam AI SDK](https://github.com/beamai/BeamAISDK-iOS) to the project inside Xcode. Simply click File > Add Packages. Then, look up https://github.com/beamai/BeamAISDK-iOS/ and click + to add the Beam AI SDK package to your project.
+3. Update the beamID on line 53 of ViewController.swift. You will need a beamID to be able to use the Beam AI SDK. You can sign up to get your beamID [dashboard.beamhealth.ai](https://dashboard.beamhealth.ai/).
 
 ```
 self.beamAI = try! BeamAI(beamID: "your-20-char-beamID", frameRate: 30, window: 60.0, updateEvery: 1.0)
 ```
 
-3. Update app team to your App Store developer account, and deploy onto an iPhone device.
-4. Enjoy the build and race to build the super cool application you are thinking about 😎!
+4. Update app team to your App Store developer account, and deploy onto an iPhone device.
+5. Enjoy the build and race to build the super cool application you are thinking about 😎!
 
 ## Contact
 
