@@ -21,7 +21,8 @@ self.beamAI = try! BeamAI(beamID: "your-20-char-beamID", frameRate: 30, window: 
 ```
 
 4. Update app team to your App Store developer account, and deploy onto an iPhone device.
-5. Enjoy the build and race to build the super cool application you are thinking about 😎!
+5. Enjoy the build and race to build the super cool application you are thinking about 😎! Note that the SDK works on iPhone and iPad devices, but not the Xcode simulators as those do not support camera access. You will therefore need to build and test this sample project on a physical iPhone device.
+
 
 ## Contact
 
